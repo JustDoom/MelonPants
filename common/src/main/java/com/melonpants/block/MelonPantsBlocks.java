@@ -44,7 +44,7 @@ public class MelonPantsBlocks {
         return toReturn;
     }
 
-    private static <T extends Block> RegistrySupplier<T> registerOnlyBlock(String name, Supplier<T> block, RegistrySupplier<CreativeModeTab> tab) {
+    private static <T extends Block> RegistrySupplier<T> registerOnlyBlock(String name, Supplier<T> block) {
         return BLOCKS.register(name, block);
     }
 
