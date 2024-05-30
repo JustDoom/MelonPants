@@ -26,7 +26,7 @@ public class MelonPantsBlocks {
             new CarvedPumpkinBlock(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.COLOR_LIGHT_GREEN)
                     .strength(1.0f)
-                    .sound(SoundType.WOOD).lightLevel((blockStatex) -> 15)
+                    .sound(SoundType.WOOD)
                     .pushReaction(PushReaction.DESTROY)),
             MelonPants.MELONPANTS_TAB);
 
@@ -34,7 +34,7 @@ public class MelonPantsBlocks {
                     new CarvedPumpkinBlock(BlockBehaviour.Properties.of()
                             .mapColor(MapColor.COLOR_LIGHT_GREEN)
                             .strength(1.0f)
-                            .sound(SoundType.WOOD).lightLevel((blockStatex) -> 15)
+                            .sound(SoundType.WOOD)
                             .pushReaction(PushReaction.DESTROY)),
             MelonPants.MELONPANTS_TAB);
 
