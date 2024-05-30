@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "melonpants:block/carved_melon",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "melonpants:block/carved_melon"
+    },
+    "facing=south": {
+      "model": "melonpants:block/carved_melon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "melonpants:block/carved_melon",
+      "y": 270
+    }
+  }
+}

@@ -1,5 +1,6 @@
 package com.melonpants;
 
+import com.melonpants.block.MelonPantsBlocks;
 import com.melonpants.item.MelonPantsItems;
 import dev.architectury.registry.CreativeTabRegistry;
 import dev.architectury.registry.registries.DeferredRegister;
@@ -19,6 +20,7 @@ public class MelonPants {
     
     public static void init() {
         TABS.register();
+        MelonPantsBlocks.init();
         MelonPantsItems.init();
     }
 }

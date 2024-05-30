@@ -1,7 +1,10 @@
 {
-  "itemGroup.melonpants.melonpants_tab": "Melon Plants",
+  "itemGroup.melonpants.melonpants_tab": "Melon Pants",
 
   "item.melonpants.melon_helmet": "Melon Helmet",
   "item.melonpants.melon_chestplate": "Melon Chestplate",
-  "item.melonpants.melon_pants": "Melon Pants"
+  "item.melonpants.melon_pants": "Melon Pants",
+  "item.melonpants.melon_boots": "Melon Boots",
+
+  "item.melonpants.carved_melon": "Carved Melon"
 }

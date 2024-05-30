@@ -12,6 +12,7 @@ public class MelonPantsItems {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MelonPants.MOD_ID, Registries.ITEM);
 
+    // Armour Items
     public static final RegistrySupplier<Item> MELON_HELMET = ITEMS.register("melon_helmet", () -> new ArmorItem(ModArmorMaterials.MELON,
             ArmorItem.Type.HELMET, new Item.Properties().arch$tab(MelonPants.MELONPANTS_TAB)));
 
