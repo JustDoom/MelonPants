@@ -38,6 +38,42 @@ public class MelonPantsBlocks {
                             .pushReaction(PushReaction.DESTROY)),
             MelonPants.MELONPANTS_TAB);
 
+    public static final RegistrySupplier<Block> JACK_O_CARVED_MELON = registerBlock("jack_o_carved_melon", () ->
+                    new CarvedPumpkinBlock(BlockBehaviour.Properties.of()
+                            .mapColor(MapColor.COLOR_LIGHT_GREEN)
+                            .strength(1.0f)
+                            .sound(SoundType.WOOD)
+                            .lightLevel((state) -> 15)
+                            .pushReaction(PushReaction.DESTROY)),
+            MelonPants.MELONPANTS_TAB);
+
+    public static final RegistrySupplier<Block> JACK_O_HAPPY_CARVED_MELON = registerBlock("jack_o_happy_carved_melon", () ->
+                    new CarvedPumpkinBlock(BlockBehaviour.Properties.of()
+                            .mapColor(MapColor.COLOR_LIGHT_GREEN)
+                            .strength(1.0f)
+                            .sound(SoundType.WOOD)
+                            .lightLevel((state) -> 15)
+                            .pushReaction(PushReaction.DESTROY)),
+            MelonPants.MELONPANTS_TAB);
+
+    public static final RegistrySupplier<Block> SOUL_JACK_O_CARVED_MELON = registerBlock("soul_jack_o_carved_melon", () ->
+                    new CarvedPumpkinBlock(BlockBehaviour.Properties.of()
+                            .mapColor(MapColor.COLOR_LIGHT_GREEN)
+                            .strength(1.0f)
+                            .sound(SoundType.WOOD)
+                            .lightLevel((state) -> 15)
+                            .pushReaction(PushReaction.DESTROY)),
+            MelonPants.MELONPANTS_TAB);
+
+    public static final RegistrySupplier<Block> SOUL_JACK_O_HAPPY_CARVED_MELON = registerBlock("soul_jack_o_happy_carved_melon", () ->
+                    new CarvedPumpkinBlock(BlockBehaviour.Properties.of()
+                            .mapColor(MapColor.COLOR_LIGHT_GREEN)
+                            .strength(1.0f)
+                            .sound(SoundType.WOOD)
+                            .lightLevel((state) -> 15)
+                            .pushReaction(PushReaction.DESTROY)),
+            MelonPants.MELONPANTS_TAB);
+
     private static <T extends Block> RegistrySupplier<T> registerBlock(String name, Supplier<T> block, RegistrySupplier<CreativeModeTab> tab) {
         RegistrySupplier<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);

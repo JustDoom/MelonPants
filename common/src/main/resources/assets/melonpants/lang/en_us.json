@@ -6,6 +6,10 @@
   "item.melonpants.melon_pants": "Melon Pants",
   "item.melonpants.melon_boots": "Melon Boots",
 
-  "item.melonpants.carved_melon": "Carved Melon",
-  "item.melonpants.happy_carved_melon": "Happy Carved Melon"
+  "block.melonpants.carved_melon": "Carved Melon",
+  "block.melonpants.happy_carved_melon": "Happy Carved Melon",
+  "block.melonpants.jack_o_carved_melon": "Jack o'Carved Melon",
+  "block.melonpants.jack_o_happy_carved_melon": "Jack o'Happy Carved Melon",
+  "block.melonpants.soul_jack_o_carved_melon": "Soul Jack o'Carved Melon",
+  "block.melonpants.soul_jack_o_happy_carved_melon": "Soul Jack o'Happy Carved Melon"
 }

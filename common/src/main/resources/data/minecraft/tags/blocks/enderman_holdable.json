@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     "melonpants:carved_melon",
-    "melonpants:happy_carved_melon"
+    "melonpants:happy_carved_melon",
+    "melonpants:jack_o_carved_melon",
+    "melonpants:jack_o_happy_carved_melon",
+    "melonpants:soul_jack_o_carved_melon",
+    "melonpants:soul_jack_o_happy_carved_melon"
   ]
 }
