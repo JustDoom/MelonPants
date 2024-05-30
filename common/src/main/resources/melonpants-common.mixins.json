@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.imjustdoom.melonpants.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MelonMixin",
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

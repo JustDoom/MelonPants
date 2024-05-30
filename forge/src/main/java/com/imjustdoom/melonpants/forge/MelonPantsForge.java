@@ -1,7 +1,7 @@
-package com.melonpants.forge;
+package com.imjustdoom.melonpants.forge;
 
 import dev.architectury.platform.forge.EventBuses;
-import com.melonpants.MelonPants;
+import com.imjustdoom.melonpants.MelonPants;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 

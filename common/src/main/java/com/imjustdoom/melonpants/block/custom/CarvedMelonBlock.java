@@ -1,6 +1,6 @@
-package com.melonpants.block.custom;
+package com.imjustdoom.melonpants.block.custom;
 
-import com.melonpants.block.MelonPantsBlocks;
+import com.imjustdoom.melonpants.block.MelonPantsBlocks;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.block.Block;

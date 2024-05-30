@@ -1,7 +1,7 @@
-package com.melonpants;
+package com.imjustdoom.melonpants;
 
-import com.melonpants.block.MelonPantsBlocks;
-import com.melonpants.item.MelonPantsItems;
+import com.imjustdoom.melonpants.item.MelonPantsItems;
+import com.imjustdoom.melonpants.block.MelonPantsBlocks;
 import dev.architectury.registry.CreativeTabRegistry;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;

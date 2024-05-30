@@ -1,6 +1,6 @@
-package com.melonpants.forge;
+package com.imjustdoom.melonpants.forge;
 
-import com.melonpants.ExampleExpectPlatform;
+import com.imjustdoom.melonpants.ExampleExpectPlatform;
 import net.minecraftforge.fml.loading.FMLPaths;
 
 import java.nio.file.Path;

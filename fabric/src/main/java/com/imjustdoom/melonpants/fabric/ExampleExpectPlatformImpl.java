@@ -1,6 +1,6 @@
-package com.melonpants.fabric;
+package com.imjustdoom.melonpants.fabric;
 
-import com.melonpants.ExampleExpectPlatform;
+import com.imjustdoom.melonpants.ExampleExpectPlatform;
 import net.fabricmc.loader.api.FabricLoader;
 
 import java.nio.file.Path;

@@ -5,7 +5,7 @@
   "name": "Melon Pants",
   "description": "When life gives you melons, make melon pants!",
   "authors": [
-    "Me!"
+    "JustDoom (Developer), SlyFox (Artist)"
   ],
   "contact": {
     "homepage": "https://imjustdoom.com",
@@ -16,9 +16,12 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.melonpants.fabric.MelonPantsFabric"
+      "com.imjustdoom.melonpants.fabric.MelonPantsFabric"
     ]
   },
+  "mixins": [
+    "melonpants-common.mixins.json"
+  ],
   "depends": {
     "fabric": "*",
     "minecraft": ">=1.20",

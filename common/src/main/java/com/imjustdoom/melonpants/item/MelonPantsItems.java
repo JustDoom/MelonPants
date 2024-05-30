@@ -1,7 +1,7 @@
-package com.melonpants.item;
+package com.imjustdoom.melonpants.item;
 
-import com.melonpants.MelonPants;
-import com.melonpants.item.custom.ModArmorMaterials;
+import com.imjustdoom.melonpants.MelonPants;
+import com.imjustdoom.melonpants.item.custom.ModArmorMaterials;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.registries.Registries;

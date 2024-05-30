@@ -1,4 +1,4 @@
-package com.melonpants;
+package com.imjustdoom.melonpants;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 import dev.architectury.platform.Platform;

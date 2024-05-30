@@ -1,4 +1,4 @@
-package com.melonpants.item.custom;
+package com.imjustdoom.melonpants.item.custom;
 
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;

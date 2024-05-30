@@ -1,7 +1,7 @@
-package com.melonpants.block;
+package com.imjustdoom.melonpants.block;
 
-import com.melonpants.MelonPants;
-import com.melonpants.item.MelonPantsItems;
+import com.imjustdoom.melonpants.MelonPants;
+import com.imjustdoom.melonpants.item.MelonPantsItems;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.registries.Registries;

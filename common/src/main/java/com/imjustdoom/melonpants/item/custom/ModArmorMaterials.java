@@ -1,6 +1,6 @@
-package com.melonpants.item.custom;
+package com.imjustdoom.melonpants.item.custom;
 
-import com.melonpants.MelonPants;
+import com.imjustdoom.melonpants.MelonPants;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
