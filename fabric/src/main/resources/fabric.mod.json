@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "id": "melonpants",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Melon Pants",
+  "description": "When life gives you melons, make melon pants!",
   "authors": [
     "Me!"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://imjustdoom.com",
+    "sources": "https://github.com/JustDoom/MelonPants"
   },
-  "license": "Insert License Here",
+  "license": "MIT",
   "icon": "assets/melonpants/icon.png",
   "environment": "*",
   "entrypoints": {
@@ -21,7 +21,7 @@
   },
   "depends": {
     "fabric": "*",
-    "minecraft": ">=1.20.1",
+    "minecraft": ">=1.20",
     "architectury": ">=9.1.12"
   }
 }

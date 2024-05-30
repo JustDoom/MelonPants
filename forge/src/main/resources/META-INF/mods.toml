@@ -1,15 +1,15 @@
 modLoader = "javafml"
 loaderVersion = "[47,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/JustDoom/MelonPants/issues"
+license = "MIT"
 
 [[mods]]
 modId = "melonpants"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "Melon Pants"
+authors = "JustDoom (Developer), SlyFox (Artist)"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+When life gives you melons, make melon pants!
 '''
 #logoFile = ""
 
@@ -23,7 +23,7 @@ side = "BOTH"
 [[dependencies.melonpants]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.20.1,)"
+versionRange = "[1.20,)"
 ordering = "NONE"
 side = "BOTH"
 
