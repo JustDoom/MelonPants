@@ -30,6 +30,14 @@ public class MelonPantsBlocks {
                     .pushReaction(PushReaction.DESTROY)),
             MelonPants.MELONPANTS_TAB);
 
+    public static final RegistrySupplier<Block> HAPPY_CARVED_MELON = registerBlock("happy_carved_melon", () ->
+                    new CarvedPumpkinBlock(BlockBehaviour.Properties.of()
+                            .mapColor(MapColor.COLOR_LIGHT_GREEN)
+                            .strength(1.0f)
+                            .sound(SoundType.WOOD).lightLevel((blockStatex) -> 15)
+                            .pushReaction(PushReaction.DESTROY)),
+            MelonPants.MELONPANTS_TAB);
+
     private static <T extends Block> RegistrySupplier<T> registerBlock(String name, Supplier<T> block, RegistrySupplier<CreativeModeTab> tab) {
         RegistrySupplier<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);
