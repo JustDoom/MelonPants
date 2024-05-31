@@ -12,7 +12,8 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
 
-    MELON("melon", 15, new int[] {2, 4, 3, 2}, 10, SoundEvents.GROWING_PLANT_CROP, 0.0F, 0.0F, () -> Ingredient.of(ItemStack.EMPTY));
+    MELON("melon", 15, new int[] {2, 4, 3, 2}, 10, SoundEvents.GROWING_PLANT_CROP, 0.0F, 0.0F, () -> Ingredient.of(ItemStack.EMPTY)),
+    GLISTERING_MELON("glistering_melon", 15, new int[] {3, 5, 4, 3}, 25, SoundEvents.GROWING_PLANT_CROP, 0.0F, 0.0F, () -> Ingredient.of(ItemStack.EMPTY));
 
     private final String name;
     private final int durabilityMultiplier;
